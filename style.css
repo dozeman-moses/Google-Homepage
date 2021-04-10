@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+}
+
+/* Design of the Introduction */
+.intro {
+  float: right;
+}
+
+.intro h2 {
+    font-size: 14px;
+    margin-left: -180px;
+    margin-top: 15px;
+}
+
+.clr {
+    clear: both;
+}
+
+.intro h3 {
+    font-size: 14px;
+    margin-left: -130px;
+    margin-top: -19px;
+}
+
+.intro .image img{
+    border-radius: 50%;
+    margin-top: -35px;
+    margin-left: -70px;
+}
+
+/* Google Logo */
+.container{
+    max-width: 100%;
+    margin-top: 130px;
+    text-align: center;
+}
+
+/* Forms*/
+.form {
+    margin-top: 20px;
+}
+
+.form input {
+    width: 40%;
+    border-radius: 20px;
+    outline: none;
+    padding: 8px;
+    text-align: center;
+}
+
+.search {
+   margin-left: -250px;
+   margin-top: -30px;
+   color: darkgray;
+}
+
+.microphone {
+    margin-right: -250px;
+    margin-top: -20px;
+    color: blue;
+}
+
+/* Auxillaries */
+.btn-group {
+    margin-top: 30px;
+}
+
+.btn-group button {
+    background-color: rgb(201, 193, 193);
+    padding: 8px;
+    color: black;
+    border: none;
+}
